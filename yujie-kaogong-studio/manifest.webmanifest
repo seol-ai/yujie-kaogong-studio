@@ -1,0 +1,26 @@
+{
+  "name": "煜婕专属考公学习台",
+  "short_name": "考公台",
+  "description": "煜婕的韩系甜美考公学习台 · 进度追踪 · 思维导图刷题 · 双师对话 · 错题本 · 灵感积累",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3E8FF",
+  "theme_color": "#C9A7EB",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

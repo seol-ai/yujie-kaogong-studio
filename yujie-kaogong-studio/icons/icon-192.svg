@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3E8FF"/>
+      <stop offset="100%" stop-color="#C9A7EB"/>
+    </linearGradient>
+    <linearGradient id="shiba" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5C88B"/>
+      <stop offset="100%" stop-color="#D89B5A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="96" cy="96" r="94" fill="url(#bg)"/>
+  <!-- 云朵装饰 -->
+  <ellipse cx="40" cy="40" rx="18" ry="10" fill="#fff" opacity=".8"/>
+  <ellipse cx="52" cy="36" rx="12" ry="8" fill="#fff" opacity=".8"/>
+  <ellipse cx="155" cy="55" rx="16" ry="9" fill="#fff" opacity=".8"/>
+  <!-- 小星星 -->
+  <g fill="#FFF5B8">
+    <polygon points="30,120 33,130 43,130 35,136 38,146 30,140 22,146 25,136 17,130 27,130"/>
+    <polygon points="162,140 164,147 171,147 165,151 167,158 162,154 157,158 159,151 153,147 160,147"/>
+  </g>
+  <!-- 蝴蝶结 -->
+  <g transform="translate(148,30)">
+    <path d="M0,0 Q-10,-8 -20,0 Q-10,8 0,0 Z" fill="#FF8FAB"/>
+    <path d="M0,0 Q10,-8 20,0 Q10,8 0,0 Z" fill="#FF8FAB"/>
+    <circle cx="0" cy="0" r="3" fill="#C75B7A"/>
+  </g>
+  <!-- 柴犬头部 -->
+  <g transform="translate(60,70)">
+    <!-- 耳朵 -->
+    <path d="M10,10 L-2,-15 L25,0 Z" fill="url(#shiba)"/>
+    <path d="M60,10 L72,-15 L45,0 Z" fill="url(#shiba)"/>
+    <!-- 脸 -->
+    <ellipse cx="35" cy="32" rx="34" ry="28" fill="url(#shiba)"/>
+    <!-- 白脸 -->
+    <path d="M15,35 Q35,60 55,35 Q50,48 35,52 Q20,48 15,35 Z" fill="#FFF5EA"/>
+    <!-- 眼睛 -->
+    <ellipse cx="23" cy="30" rx="3" ry="4" fill="#2b2b2b"/>
+    <ellipse cx="47" cy="30" rx="3" ry="4" fill="#2b2b2b"/>
+    <circle cx="24" cy="29" r="1" fill="#fff"/>
+    <circle cx="48" cy="29" r="1" fill="#fff"/>
+    <!-- 腮红 -->
+    <circle cx="15" cy="40" r="4" fill="#FFB6C1" opacity=".6"/>
+    <circle cx="55" cy="40" r="4" fill="#FFB6C1" opacity=".6"/>
+    <!-- 鼻子+嘴 -->
+    <ellipse cx="35" cy="43" rx="2.5" ry="2" fill="#2b2b2b"/>
+    <path d="M35,45 Q35,49 32,50 M35,45 Q35,49 38,50" stroke="#2b2b2b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 抱着的书本 -->
+  <g transform="translate(72,130)">
+    <rect x="-16" y="0" width="40" height="28" rx="3" fill="#FFF" stroke="#C9A7EB" stroke-width="2"/>
+    <line x1="4" y1="0" x2="4" y2="28" stroke="#C9A7EB" stroke-width="2"/>
+    <line x1="-12" y1="6" x2="0" y2="6" stroke="#C9A7EB" stroke-width="1.2"/>
+    <line x1="-12" y1="12" x2="-2" y2="12" stroke="#C9A7EB" stroke-width="1.2"/>
+    <line x1="8" y1="6" x2="20" y2="6" stroke="#C9A7EB" stroke-width="1.2"/>
+    <line x1="8" y1="12" x2="20" y2="12" stroke="#C9A7EB" stroke-width="1.2"/>
+    <line x1="8" y1="18" x2="16" y2="18" stroke="#C9A7EB" stroke-width="1.2"/>
+  </g>
+  <!-- 爱心 -->
+  <path d="M120,80 C120,70 108,66 108,76 C108,70 96,66 96,76 C96,86 108,96 108,96 C108,96 120,86 120,80 Z" fill="#FF8FAB"/>
+</svg>
